@@ -38,7 +38,9 @@ Their functions are described as follows:
 In Cranial, all original 8 Brainfuck commands are valid and behave as expected. As well, two more commands have been introduced:
 
 * `:`: Output the byte at the point as a number between 0-255
-* `;`: Take in a number from 0-255 from standard input and store it at the pointer's current positon
+* `;`: Take in a number from 0-(2^128)-1 from standard input and store all of the bytes at the pointer's current position and any bytes to the right of the pointer's position
+
+To output integers larger than 255, up to 16 `:` characters may be stored between `{}`. No other characters may be placed between these braces.
 
 Additionally, Cranial will implement a read-eval-print loop (REPL). All 10 commands are valid, with the addition of three new commands
 specifically made for the REPL:
