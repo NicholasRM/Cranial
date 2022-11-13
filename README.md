@@ -24,8 +24,8 @@ In the original implementation of Brainfuck, only the following 8 commands are c
 
 Their functions are described as follows:
 
-* `>`: Move the pointer once byte to the right
-* `<`: Move the pointer once byte to the left
+* `>`: Move the pointer 1 byte to the right
+* `<`: Move the pointer 1 byte to the left
 * `+`: Increment the byte at the pointer's current position by 1
 * `+`: Increment the byte at the pointer's current position by 1
 * `.`: Output the byte at the pointer's current position as a character and write it to standard output
