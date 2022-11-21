@@ -27,7 +27,7 @@ Their functions are described as follows:
 * `>`: Move the pointer 1 byte to the right
 * `<`: Move the pointer 1 byte to the left
 * `+`: Increment the byte at the pointer's current position by 1
-* `+`: Decrement the byte at the pointer's current position by 1
+* `-`: Decrement the byte at the pointer's current position by 1
 * `.`: Output the byte at the pointer's current position as a character and write it to standard output
 * `,`: Read a character from standard input and store its value at the pointer's current position
 * `[`: Enter into a loop, or jump to the end of a loop if the value at the pointer's current position is 0
